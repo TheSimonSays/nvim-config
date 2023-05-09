@@ -45,6 +45,7 @@ return packer.startup(function(use)
     use("saadparwaiz1/cmp_luasnip")
     use("rafamadriz/friendly-snippets")
     use("romgrk/barbar.nvim")
+    use("folke/which-key.nvim")
 
     -- LSP
     use("williamboman/mason.nvim")
