@@ -46,6 +46,7 @@ return packer.startup(function(use)
     use("rafamadriz/friendly-snippets")
     use("romgrk/barbar.nvim")
     use("folke/which-key.nvim")
+    use({ "akinsho/toggleterm.nvim", tag = '*' })
 
     -- LSP
     use("williamboman/mason.nvim")

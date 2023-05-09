@@ -35,9 +35,12 @@ local mappings = {
         d = { "Peek definition" },
         D = { "Go to with new tab" },
     },
+    t = {
+        name = "Toggle termianl"
+    },
     ["<C-n>"] = {
         name = "Toggle tree"
-    }
+    },
 }
 
 
